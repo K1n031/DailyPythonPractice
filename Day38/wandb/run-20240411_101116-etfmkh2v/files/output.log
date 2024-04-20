@@ -1,0 +1,2 @@
+C:\Users\namti\AppData\Local\Temp\ipykernel_9388\2497032503.py:16: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  return w1 * x[0] + w2 * x[1] + w3 * x[2] + b

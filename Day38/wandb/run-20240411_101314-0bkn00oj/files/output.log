@@ -1,0 +1,22 @@
+C:\Users\namti\AppData\Local\Temp\ipykernel_9388\2806244382.py:25: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  return w1 * x[0] + w2 * x[1] + w3 * x[2] + b
+C:\Users\namti\AppData\Local\Temp\ipykernel_9388\2806244382.py:28: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  dw1 = x[0]*(y_hat - y)
+C:\Users\namti\AppData\Local\Temp\ipykernel_9388\2806244382.py:29: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  dw2 = x[1]*(y_hat - y)
+C:\Users\namti\AppData\Local\Temp\ipykernel_9388\2806244382.py:30: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  dw3 = x[2]*(y_hat - y)
+C:\Users\namti\AppData\Local\Temp\ipykernel_9388\2806244382.py:73: RuntimeWarning: overflow encountered in scalar power
+  loss = (y_hat - y)**2/2.0
+C:\Users\namti\AppData\Local\Temp\ipykernel_9388\2806244382.py:28: RuntimeWarning: overflow encountered in scalar multiply
+  dw1 = x[0]*(y_hat - y)
+C:\Users\namti\AppData\Local\Temp\ipykernel_9388\2806244382.py:29: RuntimeWarning: overflow encountered in scalar multiply
+  dw2 = x[1]*(y_hat - y)
+C:\Users\namti\AppData\Local\Temp\ipykernel_9388\2806244382.py:30: RuntimeWarning: overflow encountered in scalar multiply
+  dw3 = x[2]*(y_hat - y)
+C:\Users\namti\AppData\Local\Temp\ipykernel_9388\2806244382.py:36: RuntimeWarning: invalid value encountered in scalar subtract
+  w1_new = w1 - lr * dw1
+C:\Users\namti\AppData\Local\Temp\ipykernel_9388\2806244382.py:37: RuntimeWarning: invalid value encountered in scalar subtract
+  w2_new = w2 - lr * dw2
+C:\Users\namti\AppData\Local\Temp\ipykernel_9388\2806244382.py:38: RuntimeWarning: invalid value encountered in scalar subtract
+  w3_new = w3 - lr * dw3

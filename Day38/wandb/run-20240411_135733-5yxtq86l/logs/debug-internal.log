@@ -1,0 +1,95 @@
+2024-04-11 13:58:30,472 INFO    StreamThr :22348 [internal.py:wandb_internal():86] W&B internal server running at pid: 22348, started at: 2024-04-11 13:58:30.472561
+2024-04-11 13:58:30,474 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: status
+2024-04-11 13:58:30,474 INFO    WriterThread:22348 [datastore.py:open_for_write():87] open: c:\AIO24\Daily_Practice\Day38\wandb\run-20240411_135733-5yxtq86l\run-5yxtq86l.wandb
+2024-04-11 13:58:30,476 DEBUG   SenderThread:22348 [sender.py:send():379] send: header
+2024-04-11 13:58:30,476 DEBUG   SenderThread:22348 [sender.py:send():379] send: run
+2024-04-11 13:58:31,520 INFO    SenderThread:22348 [dir_watcher.py:__init__():211] watching files in: c:\AIO24\Daily_Practice\Day38\wandb\run-20240411_135733-5yxtq86l\files
+2024-04-11 13:58:31,520 INFO    SenderThread:22348 [sender.py:_start_run_threads():1124] run started: 5yxtq86l with start time 1712818709.654585
+2024-04-11 13:58:31,533 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: check_version
+2024-04-11 13:58:31,533 DEBUG   SenderThread:22348 [sender.py:send_request():406] send_request: check_version
+2024-04-11 13:58:36,541 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 13:58:36,547 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: run_start
+2024-04-11 13:58:36,557 DEBUG   HandlerThread:22348 [system_info.py:__init__():26] System info init
+2024-04-11 13:58:36,558 DEBUG   HandlerThread:22348 [system_info.py:__init__():41] System info init done
+2024-04-11 13:58:36,558 INFO    HandlerThread:22348 [system_monitor.py:start():194] Starting system monitor
+2024-04-11 13:58:36,558 INFO    SystemMonitor:22348 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-11 13:58:36,558 INFO    HandlerThread:22348 [system_monitor.py:probe():214] Collecting system info
+2024-04-11 13:58:36,565 INFO    SystemMonitor:22348 [interfaces.py:start():190] Started cpu monitoring
+2024-04-11 13:58:36,565 DEBUG   HandlerThread:22348 [system_info.py:probe():150] Probing system
+2024-04-11 13:58:36,566 INFO    SystemMonitor:22348 [interfaces.py:start():190] Started disk monitoring
+2024-04-11 13:58:36,567 INFO    SystemMonitor:22348 [interfaces.py:start():190] Started gpu monitoring
+2024-04-11 13:58:36,567 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:58:36,568 INFO    SystemMonitor:22348 [interfaces.py:start():190] Started memory monitoring
+2024-04-11 13:58:36,568 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:58:36,578 INFO    SystemMonitor:22348 [interfaces.py:start():190] Started network monitoring
+2024-04-11 13:58:36,579 DEBUG   HandlerThread:22348 [gitlib.py:_init_repo():56] git repository is invalid
+2024-04-11 13:58:36,579 DEBUG   HandlerThread:22348 [system_info.py:probe():198] Probing system done
+2024-04-11 13:58:36,579 DEBUG   HandlerThread:22348 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.7', 'heartbeatAt': '2024-04-11T06:58:36.566583', 'startedAt': '2024-04-11T06:57:33.843344', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'Keno', 'username': 'namti', 'executable': 'c:\\Users\\namti\\anaconda3\\envs\\aio24_env\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3000.0, 'min': 0.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 3000.0, 'min': 0.0, 'max': 3000.0}], 'disk': {'/': {'total': 953.0654792785645, 'used': 772.4384002685547}}, 'gpu': 'NVIDIA GeForce RTX 2060 with Max-Q Design', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2060 with Max-Q Design', 'memory_total': 6442450944}], 'memory': {'total': 15.41949462890625}}
+2024-04-11 13:58:36,579 INFO    HandlerThread:22348 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-11 13:58:36,579 INFO    HandlerThread:22348 [system_monitor.py:probe():227] Publishing system info
+2024-04-11 13:58:36,579 DEBUG   HandlerThread:22348 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-04-11 13:58:37,566 INFO    Thread-82 :22348 [dir_watcher.py:_on_file_created():271] file/dir created: c:\AIO24\Daily_Practice\Day38\wandb\run-20240411_135733-5yxtq86l\files\conda-environment.yaml
+2024-04-11 13:58:41,568 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:58:41,568 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:58:44,142 DEBUG   HandlerThread:22348 [system_info.py:_save_conda():222] Saving conda packages done
+2024-04-11 13:58:44,143 INFO    HandlerThread:22348 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-11 13:58:44,143 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 13:58:44,143 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-11 13:58:44,143 DEBUG   SenderThread:22348 [sender.py:send():379] send: files
+2024-04-11 13:58:44,144 INFO    SenderThread:22348 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-11 13:58:44,483 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-11 13:58:44,484 DEBUG   SenderThread:22348 [sender.py:send_request():406] send_request: python_packages
+2024-04-11 13:58:44,484 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 13:58:44,485 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 13:58:44,485 DEBUG   SenderThread:22348 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 13:58:44,628 INFO    Thread-82 :22348 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\AIO24\Daily_Practice\Day38\wandb\run-20240411_135733-5yxtq86l\files\conda-environment.yaml
+2024-04-11 13:58:44,629 INFO    Thread-82 :22348 [dir_watcher.py:_on_file_created():271] file/dir created: c:\AIO24\Daily_Practice\Day38\wandb\run-20240411_135733-5yxtq86l\files\requirements.txt
+2024-04-11 13:58:44,629 INFO    Thread-82 :22348 [dir_watcher.py:_on_file_created():271] file/dir created: c:\AIO24\Daily_Practice\Day38\wandb\run-20240411_135733-5yxtq86l\files\wandb-metadata.json
+2024-04-11 13:58:45,224 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: log_artifact
+2024-04-11 13:58:45,238 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-11 13:58:45,363 DEBUG   SenderThread:22348 [sender.py:send():379] send: telemetry
+2024-04-11 13:58:45,363 DEBUG   SenderThread:22348 [sender.py:send_request():406] send_request: log_artifact
+2024-04-11 13:58:45,642 INFO    Thread-82 :22348 [dir_watcher.py:_on_file_created():271] file/dir created: c:\AIO24\Daily_Practice\Day38\wandb\run-20240411_135733-5yxtq86l\files\media\table\Dataset_0_a8055b42bf8b179cf1cc.table.json
+2024-04-11 13:58:45,642 INFO    Thread-82 :22348 [dir_watcher.py:_on_file_created():271] file/dir created: c:\AIO24\Daily_Practice\Day38\wandb\run-20240411_135733-5yxtq86l\files\media\table
+2024-04-11 13:58:45,642 INFO    Thread-82 :22348 [dir_watcher.py:_on_file_created():271] file/dir created: c:\AIO24\Daily_Practice\Day38\wandb\run-20240411_135733-5yxtq86l\files\media
+2024-04-11 13:58:45,984 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:58:45,984 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:58:50,388 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:58:50,389 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:58:54,793 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:58:54,793 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:58:59,196 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:58:59,197 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:58:59,477 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 13:58:59,477 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 13:59:03,605 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:59:03,605 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:59:04,525 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-11 13:59:08,007 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:59:08,007 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:59:09,574 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-11 13:59:12,487 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:59:12,487 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:59:14,481 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 13:59:16,931 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:59:16,931 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:59:19,671 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-11 13:59:21,359 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:59:21,359 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:59:24,715 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-11 13:59:25,785 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:59:25,785 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:59:29,485 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 13:59:30,200 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:59:30,201 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:59:34,611 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:59:34,611 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:59:34,813 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-11 13:59:36,582 DEBUG   SystemMonitor:22348 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-11 13:59:39,027 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:59:39,028 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:59:39,858 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-11 13:59:44,474 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 13:59:47,921 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:59:47,921 ERROR   gpu       :22348 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-11 13:59:49,958 DEBUG   HandlerThread:22348 [handler.py:handle_request():146] handle_request: keepalive

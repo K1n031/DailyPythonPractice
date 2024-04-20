@@ -1,0 +1,147 @@
+2024-04-11 10:35:03,095 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-11 10:35:03,095 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Configure stats pid to 9388
+2024-04-11 10:35:03,095 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Loading settings from C:\Users\namti\.config\wandb\settings
+2024-04-11 10:35:03,095 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Loading settings from c:\AIO24\Daily_Practice\Day38\wandb\settings
+2024-04-11 10:35:03,095 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-11 10:35:03,095 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-11 10:35:03,095 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-11 10:35:03,096 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-11 10:35:03,096 INFO    MainThread:9388 [wandb_init.py:_log_setup():521] Logging user logs to c:\AIO24\Daily_Practice\Day38\wandb\run-20240411_103503-0i4q5ulk\logs\debug.log
+2024-04-11 10:35:03,096 INFO    MainThread:9388 [wandb_init.py:_log_setup():522] Logging internal logs to c:\AIO24\Daily_Practice\Day38\wandb\run-20240411_103503-0i4q5ulk\logs\debug-internal.log
+2024-04-11 10:35:03,096 INFO    MainThread:9388 [wandb_init.py:init():561] calling init triggers
+2024-04-11 10:35:03,096 INFO    MainThread:9388 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'learning_rate': 1e-05, 'epochs': 1000}
+2024-04-11 10:35:03,096 INFO    MainThread:9388 [wandb_init.py:init():611] starting backend
+2024-04-11 10:35:03,096 INFO    MainThread:9388 [wandb_init.py:init():615] setting up manager
+2024-04-11 10:35:03,098 INFO    MainThread:9388 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-04-11 10:35:03,099 INFO    MainThread:9388 [wandb_init.py:init():623] backend started and connected
+2024-04-11 10:35:03,105 INFO    MainThread:9388 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2024-04-11 10:35:03,105 INFO    MainThread:9388 [wandb_run.py:_label_probe_notebook():1309] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-04-11 10:35:03,105 INFO    MainThread:9388 [wandb_init.py:init():715] updated telemetry
+2024-04-11 10:35:03,106 INFO    MainThread:9388 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-11 10:36:34,026 ERROR   MainThread:9388 [wandb_init.py:init():774] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-04-11 10:36:34,199 ERROR   MainThread:9388 [wandb_init.py:init():1199] Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+Traceback (most recent call last):
+  File "c:\Users\namti\anaconda3\envs\aio24_env\Lib\site-packages\wandb\sdk\wandb_init.py", line 1181, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "c:\Users\namti\anaconda3\envs\aio24_env\Lib\site-packages\wandb\sdk\wandb_init.py", line 780, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-04-11 10:37:05,021 INFO    MainThread:9388 [wandb_settings.py:_apply_login():1943] Applying login settings: {}
+2024-04-11 10:37:05,029 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-11 10:37:05,030 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Configure stats pid to 9388
+2024-04-11 10:37:05,030 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Loading settings from C:\Users\namti\.config\wandb\settings
+2024-04-11 10:37:05,030 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Loading settings from c:\AIO24\Daily_Practice\Day38\wandb\settings
+2024-04-11 10:37:05,030 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-11 10:37:05,030 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-11 10:37:05,031 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-11 10:37:05,031 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-11 10:37:05,031 INFO    MainThread:9388 [wandb_init.py:_log_setup():521] Logging user logs to c:\AIO24\Daily_Practice\Day38\wandb\run-20240411_103705-n4dee5o0\logs\debug.log
+2024-04-11 10:37:05,032 INFO    MainThread:9388 [wandb_init.py:_log_setup():522] Logging internal logs to c:\AIO24\Daily_Practice\Day38\wandb\run-20240411_103705-n4dee5o0\logs\debug-internal.log
+2024-04-11 10:37:05,032 INFO    MainThread:9388 [wandb_init.py:init():561] calling init triggers
+2024-04-11 10:37:05,032 INFO    MainThread:9388 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'learning_rate': 1e-05, 'epochs': 1000}
+2024-04-11 10:37:05,032 INFO    MainThread:9388 [wandb_init.py:init():611] starting backend
+2024-04-11 10:37:05,033 INFO    MainThread:9388 [wandb_init.py:init():615] setting up manager
+2024-04-11 10:37:05,035 INFO    MainThread:9388 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-04-11 10:37:05,035 INFO    MainThread:9388 [wandb_init.py:init():623] backend started and connected
+2024-04-11 10:37:05,046 INFO    MainThread:9388 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2024-04-11 10:37:05,046 INFO    MainThread:9388 [wandb_run.py:_label_probe_notebook():1309] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-04-11 10:37:05,046 INFO    MainThread:9388 [wandb_init.py:init():715] updated telemetry
+2024-04-11 10:37:05,048 INFO    MainThread:9388 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-11 10:37:10,100 WARNING MainThread:9388 [wandb_init.py:init():1203] interrupted
+Traceback (most recent call last):
+  File "c:\Users\namti\anaconda3\envs\aio24_env\Lib\site-packages\wandb\sdk\wandb_init.py", line 1181, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "c:\Users\namti\anaconda3\envs\aio24_env\Lib\site-packages\wandb\sdk\wandb_init.py", line 751, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\namti\anaconda3\envs\aio24_env\Lib\site-packages\wandb\sdk\lib\mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\namti\anaconda3\envs\aio24_env\Lib\site-packages\wandb\sdk\lib\mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\namti\anaconda3\envs\aio24_env\Lib\site-packages\wandb\sdk\lib\mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\namti\anaconda3\envs\aio24_env\Lib\threading.py", line 629, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\namti\anaconda3\envs\aio24_env\Lib\threading.py", line 331, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-04-11 10:37:17,524 INFO    MainThread:9388 [wandb_settings.py:_apply_login():1943] Applying login settings: {}
+2024-04-11 10:37:17,530 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-11 10:37:17,530 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Configure stats pid to 9388
+2024-04-11 10:37:17,530 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Loading settings from C:\Users\namti\.config\wandb\settings
+2024-04-11 10:37:17,530 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Loading settings from c:\AIO24\Daily_Practice\Day38\wandb\settings
+2024-04-11 10:37:17,531 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-11 10:37:17,531 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-11 10:37:17,531 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-11 10:37:17,531 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-11 10:37:17,531 INFO    MainThread:9388 [wandb_init.py:_log_setup():521] Logging user logs to c:\AIO24\Daily_Practice\Day38\wandb\run-20240411_103717-ok5nbjsb\logs\debug.log
+2024-04-11 10:37:17,532 INFO    MainThread:9388 [wandb_init.py:_log_setup():522] Logging internal logs to c:\AIO24\Daily_Practice\Day38\wandb\run-20240411_103717-ok5nbjsb\logs\debug-internal.log
+2024-04-11 10:37:17,532 INFO    MainThread:9388 [wandb_init.py:init():561] calling init triggers
+2024-04-11 10:37:17,532 INFO    MainThread:9388 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'learning_rate': 1e-05, 'epochs': 1000}
+2024-04-11 10:37:17,532 INFO    MainThread:9388 [wandb_init.py:init():611] starting backend
+2024-04-11 10:37:17,532 INFO    MainThread:9388 [wandb_init.py:init():615] setting up manager
+2024-04-11 10:37:17,534 INFO    MainThread:9388 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-04-11 10:37:17,535 INFO    MainThread:9388 [wandb_init.py:init():623] backend started and connected
+2024-04-11 10:37:17,543 INFO    MainThread:9388 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2024-04-11 10:37:17,543 INFO    MainThread:9388 [wandb_run.py:_label_probe_notebook():1309] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-04-11 10:37:17,544 INFO    MainThread:9388 [wandb_init.py:init():715] updated telemetry
+2024-04-11 10:37:17,545 INFO    MainThread:9388 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-11 10:38:48,465 ERROR   MainThread:9388 [wandb_init.py:init():774] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-04-11 10:38:48,654 ERROR   MainThread:9388 [wandb_init.py:init():1199] Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+Traceback (most recent call last):
+  File "c:\Users\namti\anaconda3\envs\aio24_env\Lib\site-packages\wandb\sdk\wandb_init.py", line 1181, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "c:\Users\namti\anaconda3\envs\aio24_env\Lib\site-packages\wandb\sdk\wandb_init.py", line 780, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-04-11 10:48:02,594 INFO    MainThread:9388 [wandb_settings.py:_apply_login():1943] Applying login settings: {}
+2024-04-11 10:48:02,603 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-11 10:48:02,603 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Configure stats pid to 9388
+2024-04-11 10:48:02,603 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Loading settings from C:\Users\namti\.config\wandb\settings
+2024-04-11 10:48:02,604 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Loading settings from c:\AIO24\Daily_Practice\Day38\wandb\settings
+2024-04-11 10:48:02,604 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-11 10:48:02,604 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-11 10:48:02,604 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-11 10:48:02,604 INFO    MainThread:9388 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-11 10:48:02,605 INFO    MainThread:9388 [wandb_init.py:_log_setup():521] Logging user logs to c:\AIO24\Daily_Practice\Day38\wandb\run-20240411_104802-k0bpnb5e\logs\debug.log
+2024-04-11 10:48:02,605 INFO    MainThread:9388 [wandb_init.py:_log_setup():522] Logging internal logs to c:\AIO24\Daily_Practice\Day38\wandb\run-20240411_104802-k0bpnb5e\logs\debug-internal.log
+2024-04-11 10:48:02,605 INFO    MainThread:9388 [wandb_init.py:init():561] calling init triggers
+2024-04-11 10:48:02,605 INFO    MainThread:9388 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'learning_rate': 1e-05, 'epochs': 100}
+2024-04-11 10:48:02,605 INFO    MainThread:9388 [wandb_init.py:init():611] starting backend
+2024-04-11 10:48:02,605 INFO    MainThread:9388 [wandb_init.py:init():615] setting up manager
+2024-04-11 10:48:02,607 INFO    MainThread:9388 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-04-11 10:48:02,607 INFO    MainThread:9388 [wandb_init.py:init():623] backend started and connected
+2024-04-11 10:48:02,617 INFO    MainThread:9388 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2024-04-11 10:48:02,617 INFO    MainThread:9388 [wandb_run.py:_label_probe_notebook():1309] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-04-11 10:48:02,618 INFO    MainThread:9388 [wandb_init.py:init():715] updated telemetry
+2024-04-11 10:48:02,619 INFO    MainThread:9388 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-11 10:49:33,540 ERROR   MainThread:9388 [wandb_init.py:init():774] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-04-11 10:49:33,976 ERROR   MainThread:9388 [wandb_init.py:init():1199] Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+Traceback (most recent call last):
+  File "c:\Users\namti\anaconda3\envs\aio24_env\Lib\site-packages\wandb\sdk\wandb_init.py", line 1181, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "c:\Users\namti\anaconda3\envs\aio24_env\Lib\site-packages\wandb\sdk\wandb_init.py", line 780, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-

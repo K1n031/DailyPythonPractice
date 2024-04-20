@@ -1,0 +1,21 @@
+2024-04-11 14:22:57,709 INFO    MainThread:31728 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-11 14:22:57,709 INFO    MainThread:31728 [wandb_setup.py:_flush():76] Configure stats pid to 31728
+2024-04-11 14:22:57,709 INFO    MainThread:31728 [wandb_setup.py:_flush():76] Loading settings from C:\Users\namti\.config\wandb\settings
+2024-04-11 14:22:57,709 INFO    MainThread:31728 [wandb_setup.py:_flush():76] Loading settings from c:\AIO24\Daily_Practice\Day38\wandb\settings
+2024-04-11 14:22:57,709 INFO    MainThread:31728 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-11 14:22:57,709 INFO    MainThread:31728 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-11 14:22:57,710 INFO    MainThread:31728 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-11 14:22:57,710 INFO    MainThread:31728 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-11 14:22:57,710 INFO    MainThread:31728 [wandb_init.py:_log_setup():521] Logging user logs to c:\AIO24\Daily_Practice\Day38\wandb\run-20240411_142257-d9fkxep8\logs\debug.log
+2024-04-11 14:22:57,710 INFO    MainThread:31728 [wandb_init.py:_log_setup():522] Logging internal logs to c:\AIO24\Daily_Practice\Day38\wandb\run-20240411_142257-d9fkxep8\logs\debug-internal.log
+2024-04-11 14:22:57,710 INFO    MainThread:31728 [wandb_init.py:init():561] calling init triggers
+2024-04-11 14:22:57,710 INFO    MainThread:31728 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'learning_rate': 1e-05, 'epochs': 10}
+2024-04-11 14:22:57,710 INFO    MainThread:31728 [wandb_init.py:init():586] re-initializing run, found existing run on stack: ksc712lg
+2024-04-11 14:22:57,712 INFO    MainThread:31728 [wandb_run.py:_finish():2064] finishing run namtmh/linear-regression-2/ksc712lg
+2024-04-11 14:22:57,713 ERROR   MainThread:31728 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2024-04-11 14:22:57,713 INFO    MainThread:31728 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-11 14:22:57,713 INFO    MainThread:31728 [wandb_init.py:_jupyter_teardown():449] cleaning up jupyter logic
+2024-04-11 14:22:57,713 INFO    MainThread:31728 [wandb_run.py:_atexit_cleanup():2304] got exitcode: 0
+2024-04-11 14:22:57,714 INFO    MainThread:31728 [wandb_run.py:_restore():2287] restore
+2024-04-11 14:22:57,714 INFO    MainThread:31728 [wandb_run.py:_restore():2293] restore done
